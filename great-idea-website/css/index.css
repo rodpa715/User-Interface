@@ -3,19 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -23,44 +11,167 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
+
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	height: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+@font-face{
+	font-family: "Merriweather"; font-style: normal; font-weight: 300;
+	src: url("./Fonts/Merriweather/Merriweather-Light.ttf") format("truetype");
+}
+div.container {
+	width: 876px;
+	margin: 0 auto;
+}
+div.container p{
+	font-family: Merriweather, 'Times New Roman', Times, serif;
+}
+div.container header{
+	background-color: rgb(238, 238, 238);
+	padding: 20px;
+	padding-bottom: 35px;
+	border-left: 3px solid rgb(170, 170, 170);
+	border-right: 3px solid rgb(170, 170, 170);
+	position: fixed;
+	z-index: 1;
+	top: 0;
+}
+
+div.container header nav {
+	display: inline-block;
+	text-align: center;
+}
+
+div.container header img {
+	display: inline-block;
+	vertical-align: bottom;
+	padding-left: 25px;
+	vertical-align: text-bottom;
+}
+
+div.container header nav a:first-child {
+	margin: 0;
+	margin-right: 30px;
+}
+
+div.container header nav a {
+	margin: 0 26px;
+	color: rgb(161, 161, 161);
+	text-decoration: none;
+	text-align: left;
+}
+div.container header nav a:hover{
+	color: orange;
+	transition: all 0.3s;
+}
+
+div.container section {
+	padding-top: 100px;
+	margin: 55px;
+}
+
+div.container section div.slogan {
+	display: inline-block;
+	font-size: 68px;
+	text-align: center;
+	width: 50%;
+}
+
+div.container section div.slogan button {
+	vertical-align: top;
+	width: 150px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	cursor: pointer;
+}
+div.container section div.slogan button:hover{
+	transform: scale(1.2, 1.2);
+	transition: all 0.3s;
+}
+
+div.container section img {
+	display: inline-block;
+}
+
+div.main-content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+div.main-content section {
+	margin: 0;
+	padding: 0;
+}
+div.main-content section div {
+	display: inline-block;
+	width: 49.5%;
+	margin-bottom: 40px;
+}
+
+div.main-content img {
+	display: block;
+	margin: 0 auto;
+}
+
+div.main-content div {
+	display: inline-block;
+	width: 33%;
+	margin: 40px 0;
+	padding: 5px;
+}
+div.container address{
+	margin: 25px 0;
+	padding: 5px;
+}
+div.container address p:nth-child(4){
+	margin: 20px 0;
+}
+
+div.container p.copyright{
+	text-align: center;
+	margin: 50px 0; 
+}
