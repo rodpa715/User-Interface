@@ -35,6 +35,6 @@ Stretch goals are not required. Complete the project objectives before working o
 
 - [x] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
 
-- [x] Change all the image tags into background images instead **only on about.html**
+- [x] Change all the image tags into background images instead
 
 - [x] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
