@@ -66,6 +66,10 @@ h1, h2, h3, h4, h5 {
 	src: url("./Fonts/Merriweather/Merriweather-Light.ttf") format("truetype");
 }
 
+h1 {
+	font-size: 36px;
+}
+
 div.container {
 	width: 876px;
 	margin: 0 auto;
@@ -74,6 +78,7 @@ div.container {
 div.container p {
 	font-family: Merriweather, 'Times New Roman', Times, serif;
 	line-height: 1.3;
+	text-align: justify
 }
 
 div.container header {
@@ -122,74 +127,25 @@ div.container header a.logo {
 	top: 7px;
 }
 
-div.container section {
-	padding-top: 100px;
-	margin: 55px;
-}
-
-div.container section div.slogan {
-	display: inline-block;
-	font-size: 68px;
-	text-align: center;
-	width: 50%;
-}
-
-div.container section div.slogan button {
-	vertical-align: top;
-	width: 150px;
-	height: 30px;
-	color: black;
-	background-color: white;
-	border: 1px solid black;
-	cursor: pointer;
-}
-
-div.container section div.slogan button:hover {
-	transform: scale(1.2, 1.2);
-	transition: all 0.3s;
-}
-
-div.container section div.code-snippet {
-	display: inline-block;
-	background-image: url("../img/header-img.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 379px;
-	width: 379px;
-}
-
 div.main-content {
-	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	margin-top: 125px;
 }
 
-div.main-content section {
-	margin: 0;
-	padding: 0;
-}
-
-div.main-content section div {
+div.main-content div {
 	display: inline-block;
 	width: 49.5%;
 	margin-bottom: 40px;
 }
 
-div.main-content div.middle-img {
-	display: block;
-	margin: 0 auto;
-	padding: 0;
-	background-image: url("../img/mid-page-accent.jpg");
-	background-repeat: no-repeat;
+div.main-content div.image {
+	background-image: url("../img/about-us.jpg");
 	background-position: center;
-	width: 876px;
-	height: 182px;
-}
-
-div.main-content div {
+	background-repeat: no-repeat;
 	display: inline-block;
-	width: 33%;
-	margin: 40px 0;
-	padding: 5px;
+	height: 500px;
+	text-align: center;
+	margin-bottom: 130px;
 }
 
 div.container address {
