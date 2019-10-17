@@ -1,5 +1,7 @@
 # User Interface Project: Great Idea Web Page
 
+Patrick Rodrigues
+
 Being able to create a user interface from scratch based on a design file is considered a basic necessity for front end developers. We will be building a single page website using HTML and CSS.
 
 Given this [design file](design-files/desktop.jpg), use HTML and CSS to build the web page layout. Remember, you can only use `display:inline-block` and box model CSS properties for this project. **Note: you are NOT permitted to use Flexbox or CSS Grid. This is an exercise in basic layout techniques.**
@@ -35,6 +37,6 @@ Stretch goals are not required. Complete the project objectives before working o
 
 - [x] Create a new page based off of a navigation item. Create your own layout using box model and `display: inline-block;`
 
-- [x] Change all the image tags into background images instead **only on about.html**
+- [x] Change all the image tags into background images instead
 
 - [x] Research CSS animations and see how you could implement some ideas when hovering over buttons or navigation items
